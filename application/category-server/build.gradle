@@ -7,12 +7,12 @@ description("Category Server")
 dependencies {
     implementation project(":components:category")
 }
-jar {
+/*jar {
     enabled = true
     manifest {
         attributes 'Main-Class': 'org.dell.edu.kube.category.CategoryApplication'
     }
-}
+}*/
 test.environment([
         "SPRING_DATASOURCE_USERNAME": "root",
         "SPRING_DATASOURCE_PASSWORD": "root",
