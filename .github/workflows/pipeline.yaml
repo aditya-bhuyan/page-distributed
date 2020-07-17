@@ -3,9 +3,8 @@ name: PeloPages Distributed Pipeline
 on:
   push:
     branches:
-      - '*'
-    tags:
-      - '*'
+      - master
+      - distributed
 
 jobs:
   build-artifact:
